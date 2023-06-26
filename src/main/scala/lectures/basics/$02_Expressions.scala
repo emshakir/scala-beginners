@@ -58,7 +58,7 @@ object $02_Expressions extends App {
 /*
   TAKE AWAYS
       - Code Blocks in Scala are Expressions
-      - The Value of the bock is the value of its last Expression
+      - The Value of the block is the value of its last Expression
 
       Expression vs Instructions
         - Instructions are Executed(Java), Expression are evaluated(Scala)
