@@ -7,6 +7,7 @@
         1. Prefer Vals over vars
         2. Everything in Scala is expressions
         3. Do not use loops in Scala, side effects
+        4. Use Recursion when you need Loops
 ```
 ```
 ├── Scala Basics
