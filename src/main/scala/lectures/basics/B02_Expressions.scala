@@ -38,10 +38,10 @@ object B02_Expressions extends App {
   val aCodeBlock = {
     val y = 2
     val z = y + 1
-
     if (z > 2) "Hello" else "Good Bye"
   }
 
+  println(aCodeBlock)
   val someValue = {
     2 < 3
   }
@@ -63,7 +63,8 @@ object B02_Expressions extends App {
       Expression vs Instructions
         - Instructions are Executed(Java), Expression are evaluated(Scala)
         - In Scala we'll think in terms of expression
-
+      Expressions - Give me something
+      Instructions - DO Something
       NOTE: Do not use while loop in Scala Programs
 
 

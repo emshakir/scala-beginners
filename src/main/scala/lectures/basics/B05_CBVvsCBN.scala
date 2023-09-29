@@ -2,11 +2,13 @@ package lectures.basics
 
 object B05_CBVvsCBN extends App {
 
+  // Value is passed as an argument and output will remain same for whole expression
   def calledByValue(value: Int): Unit = {
     println(value)
     println(value)
   }
 
+  // Expression is passed as an argument i.e., System.nanoTime(), output changes based on expression passed as argument
   def calledByName(name: => Long): Unit = {
     println(name)
     println(name)

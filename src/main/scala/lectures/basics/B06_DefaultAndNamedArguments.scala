@@ -2,7 +2,7 @@ package lectures.basics
 
 object B06_DefaultAndNamedArguments {
 
-  // Need tp pass the constant valiue all the time for every function call
+  // Need tp pass the constant value all the time for every function call
   def fac(x: Int, acc: Int): Int =
     if (x <= 1) acc
     else fac(x - 1, x * acc)

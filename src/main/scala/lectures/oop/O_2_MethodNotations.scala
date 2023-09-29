@@ -11,7 +11,7 @@ object O_2_MethodNotations extends App {
     def +(nickname: String): Person =
       new Person(s"$name $nickname", favouriteMovie)
 
-    def unary_! : String =
+    def unary_~ : String =
       "This is Unary Operation, can be called only with !, Make sure to give space after " +
         "name or else it will consider : as symbol"
 
@@ -28,8 +28,8 @@ object O_2_MethodNotations extends App {
   mary + mary
 
   // Prefix notation
-  println(mary.unary_!)
-  println(!mary) // Both the methods are equivalent, only allowed for +, -, !, ~
+  println(mary.unary_~)
+  println(~mary) // Both the methods are equivalent, only allowed for +, -, !, ~
 
   // Postfix Notation
   println(mary.isAlive)
